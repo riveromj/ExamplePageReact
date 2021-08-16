@@ -1,7 +1,7 @@
 import React from "react";
 import JumboTron from "./Webpage.jsx";
 import Navbar from "./Navbar.jsx";
-import Card from "./Card.jsx";
+import Cards from "./Cards.jsx";
 
 //include images into your bundle
 //create your first component
@@ -11,12 +11,10 @@ export function Home() {
 			<Navbar />
 			<div className="Container">
 				<JumboTron />
-				<div className="row">
-					<Card />
-					<Card />
-					<Card />
-					<Card />
-				</div>
+				{/* <div className="row">
+					<Cards />
+				</div> */}
+				<Cards />
 			</div>
 		</div>
 	);
