@@ -7,15 +7,10 @@ import Cards from "./Cards.jsx";
 //create your first component
 export function Home() {
 	return (
-		<div>
+		<div className="Container">
 			<Navbar />
-			<div className="Container">
-				<JumboTron />
-				{/* <div className="row">
-					<Cards />
-				</div> */}
-				<Cards />
-			</div>
+			<JumboTron />
+			<Cards />
 		</div>
 	);
 }

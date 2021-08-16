@@ -1,8 +1,8 @@
 .card{
-    width: 19rem;
-    margin: 10px;
+    width: 18rem;
+    margin: 0.3rem;
 }
-.row{
-    margin-left: 50px;
-    
-}
+ .photo{
+    width:"304px";
+     height:"236px";
+ }

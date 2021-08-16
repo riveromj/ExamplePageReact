@@ -3,9 +3,9 @@ import "../../styles/navbarStyle.css";
 
 function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg ">
-			<a className="navbar-brand " href="#">
-				Bootatrap
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<a className="navbar-brand" href="#">
+				My Landing with React
 			</a>
 			<button
 				className="navbar-toggler"
@@ -17,38 +17,20 @@ function Navbar() {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<div
-				className="collapse navbar-collapse justify-content-end"
-				id="navbarNavAltMarkup">
-				<div className="navbar-nav  ">
-					<a className="nav-link active menu " href="#">
+			<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div className="navbar-nav">
+					<a className="nav-item nav-link active" href="#">
 						Home <span className="sr-only">(current)</span>
 					</a>
-					<a
-						className="nav-link disabled"
-						href="#"
-						tabIndex="-1"
-						aria-disabled="true">
-						About
+					<a className="nav-item nav-link" href="#">
+						Features
 					</a>
-					<a
-						className="nav-link disabled"
-						href="#"
-						tabIndex="-1"
-						aria-disabled="true">
-						Services
-					</a>
-					<a
-						className="nav-link disabled"
-						href="#"
-						tabIndex="-1"
-						aria-disabled="true">
-						Contact
+					<a className="nav-item nav-link" href="#">
+						Pricing
 					</a>
 				</div>
 			</div>
 		</nav>
 	);
 }
-
 export default Navbar;
