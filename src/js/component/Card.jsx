@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import "../../styles/card.css";
+
 function Card(props) {
 	//console.log(props);
 	let image = props.pet.image;

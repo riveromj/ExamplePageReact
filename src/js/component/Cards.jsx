@@ -42,7 +42,7 @@ function Cards() {
 		<div className="container d-flex justify-content-center h-100 aling-items-center">
 			<div className="row">
 				{pets.map((pet, index) => (
-					<div className="col-md-4 col-sm-2" key={index}>
+					<div className="col-md-4 col-sm-2 align" key={index}>
 						<Card pet={pet} />
 					</div>
 				))}
